@@ -19,6 +19,7 @@ function plusTen(num){
     return num + 10
 }
 
+
 /*
     Original:
     Write a function `printFives(max)` that prints out the multiples of 5 that
@@ -49,6 +50,7 @@ function returnSevens(max) {
     return brackets
 }
 
+
 /*
     Original:
     Write a function named `eitherStringIncluded(sentence, word1, word2)` that
@@ -71,6 +73,7 @@ function eitherStringIncluded(sentence, word1, word2) {
 function bothStringsIncluded(sentence, word1, word2) {
     return sentence.includes(word1) && sentence.includes(word2);
 }
+
 
 /*
     Original:
@@ -100,6 +103,7 @@ function productArray(arr){
     return product
 }
 
+
 /*
     Original:
     Write a function `threeOrSeven` that takes in a number and returns `true`
@@ -118,6 +122,7 @@ function threeOrSeven(num) {
 function fiveAndEleven(num) {
     return num % 5 === 0 && num % 11 === 0;
 }
+
 
 /*
     Original:
@@ -151,6 +156,7 @@ function countConsonants(word) {
     }
     return count
 }
+
 
 /*
     Original:
@@ -187,6 +193,7 @@ function alternatingLetters(str) {
 }
 
 
+
 module.exports = {
     plusTen,
     returnSevens,
@@ -196,4 +203,5 @@ module.exports = {
     countConsonants,
     alternatingLetters
 }
+
 
